@@ -26,14 +26,14 @@ Golangのリポジトリから、このリポジトリのデータを作る方�
 
 プロジェクトディレクトリをつくって、移動します。
 
-~~
+~~~
 mkdir ~/go/project01
 cd ~/go/project01
-~~
+~~~
 
 GOPATH環境変数をセットします。 
 
-~~
+~~~
 export GOPATH=`pwd`
 ~~~
 
