@@ -6,7 +6,7 @@
 このリポジトリをクローン
 
 ~~~
-git clone https://github.com/takara9/go_webpages
+git clone https://github.com/takara9/go_webpages --recursive
 ~~~
 
 IBM Cloud CloudFoundy へデプロイ
@@ -15,7 +15,7 @@ IBM Cloud CloudFoundy へデプロイ
 bx cf push
 ~~~
 
-これだけで、ウェブページがデプロできます。
+これだけで、PaaSにGo言語のウェブサーバーのHTMLページがデプロできます。
 
 
 
@@ -27,8 +27,8 @@ Golangのリポジトリから、このリポジトリのデータを作る方�
 プロジェクトディレクトリをつくって、移動します。
 
 ~~~
-mkdir ~/go/project01
-cd ~/go/project01
+mkdir ~/go/go_webpages
+cd ~/go/go_webpages
 ~~~
 
 GOPATH環境変数をセットします。 
@@ -76,3 +76,4 @@ rm -fr vender/github.com/takara9/go_webserver2
 $ git submodule add https://github.com/takara9/go_util.git  go_util
 $ git submodule add https://github.com/takara9/go_webserver2.git  go_webserver2
 ~~~
+
